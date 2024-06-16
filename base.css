@@ -82,10 +82,18 @@ body {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
+thead {
+  background-color: azure;
+  color: #11037c;
+}
 
+table {
+  -webkit-box-shadow: 13px 14px 5px 0px rgba(194, 190, 194, 1);
+  -moz-box-shadow: 13px 14px 5px 0px rgba(194, 190, 194, 1);
+  box-shadow: 13px 14px 5px 0px rgba(194, 190, 194, 1);
+}
 .footer {
   text-align: center;
-  min-height: 150px;
   color: rgb(213, 219, 212);
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
