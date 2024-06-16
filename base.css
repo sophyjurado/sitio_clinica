@@ -75,7 +75,6 @@ body {
   justify-content: center;
   text-align: center;
   font-size: large;
-  text-emphasis-style: ;
 }
 
 #diferentes li {
@@ -85,6 +84,12 @@ body {
 }
 
 .footer {
-  background-color: rgb(99, 56, 240);
+  text-align: center;
   min-height: 150px;
+  color: rgb(213, 219, 212);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  justify-content: center;
+  background-image: url("\header_img.jpg");
+  font-size: larger;
 }
