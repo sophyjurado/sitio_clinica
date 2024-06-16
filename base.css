@@ -57,12 +57,18 @@ body {
 }
 
 .content {
+  font-size: 20px;
   background-color: rgb(0, 0, 0);
   min-height: 300px;
   padding: 20px;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   color: rgb(225, 228, 231);
+  justify-content: center;
+}
+
+#atencion_per {
+  text-align: center;
   justify-content: center;
 }
 #contenido {
@@ -73,7 +79,7 @@ body {
 }
 
 #diferentes li {
-  color: rgb(53, 179, 27);
+  color: rgb(213, 219, 212);
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
