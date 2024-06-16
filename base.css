@@ -1,38 +1,83 @@
 html,
 body {
   margin: 0;
-}
-body {
-  background-color: #f1f1f1;
+  background-color: #11037c;
   display: flex;
   justify-content: center;
 }
 
 .wrapper {
   width: 1200px;
-  display: flex;
   margin: 0 auto;
-  background-color: aquamarine;
+  justify-content: center;
 }
 .main {
   display: flex;
   flex-flow: column;
   width: 85%;
 }
+
 .menu {
-  width: 15%;
-  background-color: aqua;
-  padding: 10px 20px 0px;
+  list-style: none;
+  margin: 0 auto;
+  display: inline;
+  list-style: none;
+  background-color: #050318;
 }
+
+#menu-h {
+  list-style: none;
+  padding: 0;
+  border-color: #000000;
+}
+
+#menu-h li {
+  display: inline;
+}
+
+#menu-h a {
+  display: inline;
+  color: aliceblue;
+  text-decoration: none;
+  padding: 10px;
+  display: inline-block;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
 .header {
   background-color: rgb(5, 108, 108);
   min-height: 150px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-align: center;
 }
+.p {
+  background-image: url("C:\Users\sosop\Documents\cursoDio\clinica\header_img.jpg");
+}
+
 .content {
-  background-color: white;
+  background-color: rgb(0, 0, 0);
   min-height: 300px;
   padding: 20px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: rgb(225, 228, 231);
+  justify-content: center;
 }
+#contenido {
+  justify-content: center;
+  text-align: center;
+  font-size: large;
+  text-emphasis-style: ;
+}
+
+#diferentes li {
+  color: rgb(53, 179, 27);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
 .footer {
   background-color: rgb(99, 56, 240);
   min-height: 150px;
