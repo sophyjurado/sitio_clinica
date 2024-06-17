@@ -1,9 +1,10 @@
 html,
-body {
+#body {
   margin: 0;
-  background-color: #11037c;
+  background-color: rgb(13, 1, 14);
   display: flex;
   justify-content: center;
+  background-image: url("C:\Users\sosop\Documents\cursoDio\clinica\background.png");
 }
 
 .wrapper {
@@ -22,13 +23,13 @@ body {
   margin: 0 auto;
   display: inline;
   list-style: none;
-  background-color: #050318;
+  background-color: #26e6e6;
 }
 
 #menu-h {
   list-style: none;
   padding: 0;
-  border-color: #000000;
+  border-color: #26e6e6;
 }
 
 #menu-h li {
@@ -58,13 +59,19 @@ body {
 
 .content {
   font-size: 20px;
-  background-color: rgb(0, 0, 0);
+  background-color: rgb(33, 61, 116);
   min-height: 300px;
   padding: 20px;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   color: rgb(225, 228, 231);
   justify-content: center;
+}
+
+#equipo_fisio {
+  -webkit-box-shadow: 3px 7px 5px 6px rgba(191, 142, 191, 0.59);
+  -moz-box-shadow: 3px 7px 5px 6px rgba(191, 142, 191, 0.59);
+  box-shadow: 3px 7px 5px 6px rgba(191, 142, 191, 0.59);
 }
 
 #atencion_per {
